@@ -42,7 +42,6 @@ body {
     color: red;
 }
 
-
 .navbar .nav-logo {
     color: #F9FAF8;
     list-style: none;
@@ -92,19 +91,28 @@ body {
     border-radius: 10px;
 }
 
-  .container .sign-up:hover {
+.container .sign-up:hover {
     background-color: #0056dd;
 }
 
-  .information-row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    padding: 25px 15%;
+.cards .information-header {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
-  .information-row .information-col {
+.cards .information-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.information-row .information-col {
     width: 250px;
     border-radius: 8px;
     overflow: hidden;
@@ -112,12 +120,73 @@ body {
     /* box-shadow: 0px 2px 4px rgba(0,0,0,0.2); */
 }
 
-  .information-row .information-col p {
+.information-row .information-col p {
     text-align: center;
 }
 
-  .information-row .information-col .fakeimg {
+.information-row .information-col .fakeimg {
     border-style: solid;
     border-radius: 20px;
     border-color: #0056dd;
+}
+
+.quote-content {
+    background-color: #E5E7EB;
+    padding: 80px 20%;
+}
+
+.quote-content .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-content .name {
+    padding-top: 10px;
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+.call-action {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 80px 15%;
+    padding: 20px 5%;
+    background-color: #3882f6;
+}
+
+.call-action .text {
+    color: #F9FAF8;;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.call-action .text .title{
+    font-weight: bold;
+}
+
+.call-action .sign-up-button {
+    background-color: #3882f6;
+    border-color: white;
+    color: #F9FAF8;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+    border-style: solid;
+    padding: 15px 32px;
+}
+
+.call-action .sign-up-button:hover {
+    background-color: #0056dd;
+}
+
+footer {
+    background-color: #1f2937;
+    color:white;
+    text-align: center;
+    padding: 20px 0;
 }
