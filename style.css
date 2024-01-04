@@ -56,12 +56,12 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-right: 200px;;
-    margin-left: 200px;;
+    margin-right: 200px;
+    margin-left: 200px;
     gap: 50px;
-    min-height: 90vh;
+    min-height: 50vh;
 }
 
 .container .hero-text h1{
@@ -98,4 +98,33 @@ body {
 
   .container .sign-up:hover {
     background-color: #0056dd;
+  }
+
+  .information-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 80px 0;
+  }
+
+  .information-row .information-col {
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    /* box-shadow: 0px 2px 4px rgba(0,0,0,0.2); */
+  }
+
+  .information-row .information-col p {
+    text-align: center;
+  }
+
+  .information-row .information-col .fakeimg {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0056dd;
   }
