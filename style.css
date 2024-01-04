@@ -150,12 +150,13 @@ body {
 
 .call-action {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     margin: 80px 15%;
     padding: 20px 5%;
     background-color: #3882f6;
+    border-radius: 10px;
 }
 
 .call-action .text {
